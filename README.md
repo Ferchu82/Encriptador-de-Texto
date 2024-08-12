@@ -19,7 +19,7 @@ Para ejecutar el proyecto localmente, sigue estos pasos:
 
 1. **Clona el repositorio**:
     ```bash
-    git clone https://github.com/tu_usuario/encriptador-de-texto.git
+    git clone https://github.com/Ferchu82/Encriptador-de-Texto.git
     ```
 
 2. **Navega al directorio del proyecto**:
