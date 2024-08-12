@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="encriptador, encrypter, encriptador online, text encrypter"
+    />
+    <meta
+      name="description"
+      content="Aplicación para en encriptado y desencriptado de textos en linea"
+    />
+    <meta name="author" content="Fernando E Peró" />
+    <meta name="copyright" content="© 2024 FEP" />
+    <link
+      rel="shortcut icon"
+      href="./sources/img/logo-alura.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Encriptador de Texto</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./sources/img/Logo.png" alt="logo de alura" />
+    </header>
+    <main>
+      <section>
+        <textarea
+          class="text-area"
+          cols="30"
+          rows="10"
+          placeholder="Ingrese el texto aquí"
+        ></textarea>
+        <div>
+          <h6 class="informacion">🔴 Solo letras minúsculas y sin acento</h6>
+        </div>
+        <div class="botones">
+          <button class="btn-encriptar" onclick="btnEncriptar()">
+            Encriptar
+          </button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <section>
+        <textarea class="mensaje" cols="20" rows="10"></textarea>
+        <div>
+          <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>
+        <h3 class="desarrollador">Desarrollado por Fernando E Peró</h3>
+      </div>
+      <div>
+        <a href="https://github.com/Ferchu82"
+          ><img
+            class="imagen-redes"
+            src="./sources/img/GitHub-Logo.png"
+            alt="GitHub"
+        /></a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/fernando-elias-peró-2106a1155"
+          ><img
+            class="imagen-redes"
+            src="/sources/img/LinkedIn-Logo.png"
+            alt="LinkedIn"
+        /></a>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
